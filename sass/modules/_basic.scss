@@ -8,6 +8,14 @@ body {
     color: #fff;
 }
 
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #C59B2D;
+}
+
 .navmob {
     display: flex;
     justify-content: space-between;
@@ -132,16 +140,16 @@ body {
     padding: 0 3em;
 }
 
-ul {
+.mobile {
     list-style: none;
     margin-top: 2em;
   }
-  li {
+  .mobileli {
     overflow: hidden;
     position: relative;
     padding: 0 0 80px 20px;
     }
-    li::before {
+    .mobileli::before {
       content: '';
       position: absolute;
       left: 5px;
@@ -149,10 +157,10 @@ ul {
       border: 1px solid #fff;
       border-width: 0 0 0 1px;
       }
-      li:last-child::before {
+      .mobileli:last-child::before {
         border-width: 0 0 0 1px;
         }
-    li::after {
+    .mobileli::after {
       content: '';
       position: absolute;
       left: 0;
@@ -181,12 +189,16 @@ ul {
     padding: 0 0 300px 20px;
 }
 
+.present div {
+    display: block;
+}
+
 .logoevent {
     margin: 2em 1em;
 }
 
 .logoevent img {
-    width: 300px;
+    width: 250px;
 }
 
 .headingdesk {
@@ -198,6 +210,10 @@ ul {
 }
 
 .mainimg img {
+    display: none;
+}
+
+.events2 {
     display: none;
 }
 

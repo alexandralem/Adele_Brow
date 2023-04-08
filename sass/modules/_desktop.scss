@@ -26,6 +26,11 @@
         text-align: center;
     }
 
+    .headingdesk span {
+        color: #FBC300;
+        font-weight: 600;
+    }
+
     .nav {
         display: block;
         text-align: center;
@@ -50,37 +55,91 @@
         text-transform: uppercase;
         font-weight: 400;
     }
+    
+    .events {
+        display: none;
+    }
 
-    ul {
-        list-style: none;
-        margin-top: 2em;
-      }
-      li .right {
+    .events2 {
+        display: flex;
+        width: fit-content;
+        margin: 4em auto;
+    }
+
+    .rightside {
         overflow: hidden;
         position: relative;
-        padding: 0 0 80px 20px;
+        padding: 0 0 100px 20px;
         }
-        li .right::before {
-          content: '';
-          position: absolute;
-          left: 5px;
-          height: 1000px;
-          border: 1px solid #fff;
+
+    .rightside::before {
+        content: '';
+        position: absolute;
+        left: 5px;
+        height: 1000px;
+        border: 1px solid #fff;
+        border-width: 0 0 0 1px;
+        }
+        li:last-child::before {
           border-width: 0 0 0 1px;
           }
-          li:last-child::before {
-            border-width: 0 0 0 1px;
-            }
-        li::after {
-          content: '';
-          position: absolute;
-          left: 0;
-          top: 0;
-          width: 11px;
-          height: 11px;
-          background: #C59B2D;
-          border-radius: 50%;
-          }
+
+
+    .rightside::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 11px;
+        height: 11px;
+        background: #C59B2D;
+        border-radius: 50%;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .left {
+        padding-right: 20px;
+    }
+
+    .leftside .first {
+        margin-top: 140px;
+    }
+
+    .leftside .second {
+        margin-top: 150px;
+    }
+
+    .event2 h2 {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
+    .rightside p {
+        margin-left: 1em;
+    }
+
+    .leftside p {
+        margin-right: 1em;
+        text-align: right;
+    }
+
+    .present2 {
+        display: block;
+    }
+
+    .event2 {
+        display: flex;
+    }
+
+    .event2 p {
+        width: 250px;
+        line-height: 1.5em;
+    }
+
+
 
 }
 
