@@ -217,3 +217,40 @@ a:hover {
     display: none;
 }
 
+.makeuptypes {
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.servtype {
+    border: solid 1px #C89C02;
+    border-radius: 15px;
+    width: fit-content;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.iconimg img {
+    width: 110px;
+}
+
+.iconimg {
+    margin: 3em 2em;
+}
+
+.servtype h2 {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%);
+    z-index: 2;
+    color: #C89C02;
+    font-size: 1.2em;
+}
+
