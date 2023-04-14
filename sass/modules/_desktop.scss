@@ -139,6 +139,146 @@
         line-height: 1.5em;
     }
 
+    .makeuptypes {
+        gap: 2em;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .makeupheading {
+        font-weight: 300;
+        font-size: 1.2em;
+    }
+
+    .iconimg {
+        margin: 3em 7em;
+    }
+
+    .lip {
+        margin: 3em 8em;
+    }
+
+    .servtype {
+        height: 230px;
+    }
+
+    .back {
+        display: none;
+    }
+
+    .makeupheading {
+        display: none;
+    }
+
+    .eyebrowserv {
+        background-color: #202020;
+        width: fit-content;
+        border: solid 1px #FBC300;
+        border-radius: 25px;
+        width: 300px;
+        padding: 1em 0;
+        text-align: center;
+    }
+
+    .down {
+        width: 1072px;
+        margin: auto;
+        margin-top: 6em;
+        display: flex;
+        gap: 6em;
+    }
+
+    .typeheading {
+        text-align: start;
+        margin: 0 1em 0 0;
+    }
+
+    .row1 {
+        display: flex;
+        align-items: center;
+        margin: 1em auto;
+    }
+
+    .desc p {
+        font-size: 1em;
+        font-weight: 300;
+        width: 70%;
+        line-height: 1.5em;
+    }
+
+    .beforeafter h2 {
+        display: none;
+    }
+
+    .beforeafter {
+        display: flex;
+        gap: 2em;
+        align-items: center;
+        border-bottom: solid 1px #FBC300;
+        padding-bottom: 2em;
+        width: fit-content;
+    }
+
+    .arrow {
+        height: fit-content;
+    }
+
+    .arrow img {
+        transform: rotate(0);
+    }
+
+    .persons {
+        display: flex;
+        margin-top: 3em;
+        margin-bottom: 4em;
+        gap: 2em;
+    }
+
+    .recommend h2 {
+        text-align: start;
+        font-size: 1.5em;
+    }
+
+    .human {
+        margin-bottom: 1em;
+        margin-right: 0;
+    }
+
+    .human img {
+        width: 70px;
+    }
+
+    .recommends {
+        flex-direction: column;
+        max-width: 150px;
+        margin: 0;
+    }
+
+    .recommends p {
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.5em;
+        text-align: center;
+    }
+
+    .info {
+        display: flex;
+        gap: 2em;
+    }
+
+    .info h4 {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .info h3 {
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+
+    .info h5 {
+        font-size: 1.2em;
+    }
 
 
 }

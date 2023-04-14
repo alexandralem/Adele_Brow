@@ -239,10 +239,17 @@ a:hover {
     width: 110px;
 }
 
+.lip img {
+    width: 78px;
+}
+
 .iconimg {
     margin: 3em 2em;
 }
 
+.lip {
+    margin: 3em;
+}
 .servtype h2 {
     position: absolute;
     z-index: 2;
@@ -251,6 +258,131 @@ a:hover {
     transform: translate(-50%);
     z-index: 2;
     color: #C89C02;
+    font-size: 1em;
+}
+
+.backbtn img {
+    width: 20px;
+}
+
+.backbtn {
+    background-color: #AB8500;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    margin: 0 0 2em;
+}
+
+.back p {
+    margin: 0 1em;
+}
+
+.eyebrowserv {
+    background-color: #2B2B2B;
+    border-radius: 15px;
+    padding: 1.5em;
+    margin: 1em 0;
+}
+
+.eyebrowserv:hover {
+    border: solid 1px #FBC300;
+}
+
+.typeheading {
+    color: #FBC300;
+    margin: 1em 0;
+}
+
+.bookbtn {
+    background-color: #D9D9D9;
+    color: #202020;
+    padding: 1em 2em;
+    font-size: 0.8em;
+    width: fit-content;
+}
+
+.desc {
+    margin: 2em 0;
+}
+
+.desc p {
+    font-size: 1.4em;
+    line-height: 1.2em;
+    font-weight: 400;
+}
+
+.after img {
+    width: 242px;
+}
+
+.beforeafter {
+    margin: 2em 0;
+}
+
+.beforeafter h2 {
+    margin-bottom: 1em;
+}
+
+.arrow img {
+    width: 20px;
+    transform: rotate(90deg);
+}
+
+.arrow {
+    padding: 2em 0;
+}
+
+.human img {
+    width: 100px;
+}
+
+.human {
+    margin-right: 1em;
+}
+
+.recommend h2 {
+    margin: 2em 0 1em;
+}
+
+.recommends {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 3em 2em;
+}
+
+.recommends p {
     font-size: 1.2em;
 }
 
+.info {
+    background-color: #2B2B2B;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.info h4 {
+    font-size: 1.2em;
+}
+
+.info h3 {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-top: 0.7em;
+    margin-bottom: 2em;
+}
+
+.info h5 {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-top: 0.7em;
+}
+
+.info span {
+    color: #FBC300;
+}
